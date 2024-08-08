@@ -20,9 +20,11 @@ class _HomepageState extends State<Homepage> {
   List<ChatMessage> allmessage=[];
   List<ChatUser> type=[];  // for typing indicator
 
-  final oururl='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBxmbkJ47xQR1M-JseMczpVMcCAp-dm8Ms';
+  final oururl='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=Yourapikey';
+  
 
   final header ={
+    
     'Content-Type': 'application/json'
   };
 
